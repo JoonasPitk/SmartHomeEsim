@@ -1,0 +1,49 @@
+<mxfile host="Electron" modified="2023-08-16T08:33:16.233Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="Zau_bYe2NAU_wlljDrUo" version="21.6.8" type="device">
+  <diagram name="Page-1" id="c0nw7n0BVo_5UQZOHiq9">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lfCyxHXSWa2NHubkfcws-1" value="Internet" style="verticalLabelPosition=middle;sketch=0;aspect=fixed;html=1;verticalAlign=middle;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;labelPosition=center;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="333" y="240" width="183.87" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lfCyxHXSWa2NHubkfcws-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;curved=1;" edge="1" parent="1" source="lfCyxHXSWa2NHubkfcws-2" target="lfCyxHXSWa2NHubkfcws-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lfCyxHXSWa2NHubkfcws-2" value="porssisahko.net" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_server;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="256.5" y="60" width="76.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lfCyxHXSWa2NHubkfcws-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="lfCyxHXSWa2NHubkfcws-3" target="lfCyxHXSWa2NHubkfcws-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lfCyxHXSWa2NHubkfcws-3" value="ilmatieteenlaitos.fi" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_server;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="516.87" y="60" width="76.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lfCyxHXSWa2NHubkfcws-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="lfCyxHXSWa2NHubkfcws-4" target="lfCyxHXSWa2NHubkfcws-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lfCyxHXSWa2NHubkfcws-4" value="Node.js web server" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_server;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="410" width="76.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lfCyxHXSWa2NHubkfcws-14" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="lfCyxHXSWa2NHubkfcws-5" target="lfCyxHXSWa2NHubkfcws-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lfCyxHXSWa2NHubkfcws-5" value="NGINX reverse proxy" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_server;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="410" width="76.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lfCyxHXSWa2NHubkfcws-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="lfCyxHXSWa2NHubkfcws-8" target="lfCyxHXSWa2NHubkfcws-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lfCyxHXSWa2NHubkfcws-8" value="PostgreSQL" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.database_server;" vertex="1" parent="1">
+          <mxGeometry x="680" y="410" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lfCyxHXSWa2NHubkfcws-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="lfCyxHXSWa2NHubkfcws-9" target="lfCyxHXSWa2NHubkfcws-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lfCyxHXSWa2NHubkfcws-9" value="Raspberry Pi microcontroller" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.remote_office;" vertex="1" parent="1">
+          <mxGeometry x="90" y="280" width="92" height="41.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
