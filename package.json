@@ -1,0 +1,32 @@
+{
+  "name": "smarthomeesim",
+  "version": "1.0.0",
+  "description": "Electricity usage plan",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoonasPitk/SmartHomeEsim.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "express-handlebars",
+    "electricity-prices"
+  ],
+  "author": "JoonasPitk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoonasPitk/SmartHomeEsim/issues"
+  },
+  "homepage": "https://github.com/JoonasPitk/SmartHomeEsim#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2"
+  }
+}
