@@ -11,9 +11,31 @@ h1 {
 }
 
 .cheap {
-    color:forestgreen;
+    color:darkgreen;
 }
 
 .average {
     color:cornflowerblue;
+}
+
+table {
+    border-collapse: separate;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    border-spacing: 0;
+    overflow: hidden
+}
+
+th {
+    color: #1b1b1b;
+    background-color: rgba(238, 255, 2, 0.511);
+    /* border: 1px solid #ddd; */
+    padding: 10px;
+}
+
+tr:nth-child(even){background-color: #989898;}
+
+td {
+    /* border: 1px solid #ddd; */
+    padding: 8px;
 }
